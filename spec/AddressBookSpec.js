@@ -1,7 +1,7 @@
-describe('Address Book', function() {
-    interface('should beable to add a contact', function() {
+describe('Address Book', function () {
+    it('should be able to contact', function () {
         var addressBook = new AddressBook(),
-        thisContact = new thisContact();
+            thisContact = new Contact();
 
         addressBook.addContact(thisContact);
 
